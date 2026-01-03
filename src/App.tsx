@@ -1,4 +1,4 @@
-import { Sparkles, Globe, Zap, Users, ArrowRight, CheckCircle, Code, Brain, Rocket } from 'lucide-react';
+import { Globe, Zap, Users, ArrowRight, CheckCircle, Code, Brain, Rocket } from 'lucide-react';
 
 function App() {
   return (
@@ -6,8 +6,8 @@ function App() {
       {/* Navigation */}
       <nav className="fixed top-0 w-full bg-white/90 backdrop-blur-md z-50 border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-          <div className="flex items-center space-x-2">
-            <Sparkles className="w-8 h-8 text-blue-600" />
+          <div className="flex items-center space-x-3">
+            <img src="/me_logo.png" alt="Masarany Enterprises Logo" className="w-10 h-10" />
             <span className="text-2xl font-bold text-gray-900">Masarany Enterprises</span>
           </div>
           <div className="hidden md:flex items-center space-x-8">
@@ -256,7 +256,7 @@ function App() {
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div className="space-y-4">
               <div className="flex items-center space-x-2">
-                <Sparkles className="w-6 h-6 text-blue-400" />
+                <img src="/me_logo.png" alt="Masarany Enterprises Logo" className="w-8 h-8" />
                 <span className="text-xl font-bold">Masarany Enterprises</span>
               </div>
               <p className="text-gray-400 text-sm">
