@@ -1,3 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.sub-logo {
+  display: block;
+  font-size: 0.75rem;
+  opacity: 0.7;
+  margin-top: -4px;
+}
+
+.hero-sub {
+  font-size: 1.25rem;
+  font-weight: 500;
+  opacity: 0.9;
+}
+
+.hero-description {
+  max-width: 600px;
+  margin: 1rem auto;
+  opacity: 0.85;
+}
+
+.service {
+  transition: all 0.3s ease;
+}
+
+.service:hover {
+  transform: translateY(-4px);
+}
+
+.cta-button {
+  display: inline-flex;
+  align-items: center;
+}
